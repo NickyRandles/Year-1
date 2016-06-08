@@ -1,0 +1,33 @@
+#episode_bar a
+{
+	
+	display: block;
+	width: 45.3%;	
+	border: 1px solid white;
+	padding: 10px;
+
+
+	background-color:#E3DAC9 ;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+	
+	float: left;
+}
+
+#episode_bar a:link, #episode_bar a:visited
+{
+	background-color: pink;
+	color: black;
+}
+
+#episode_bar a:hover
+{
+	background-color: silver;
+	color: white;
+}
+#episode_bar li  
+{
+	list-style-type: none;
+	display: inline;
+}

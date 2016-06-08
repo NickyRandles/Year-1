@@ -1,0 +1,46 @@
+#list01,  #list03, #list05
+{
+	background-color:red;
+	width: 30%;
+}
+
+#list02, #list04
+{
+	background-color:green;
+	width: 30%;
+}
+
+#list01
+{
+	margin-top: 5%;
+}
+
+div a
+{
+	color: black;
+}
+
+div a:hover
+{
+	color: white;
+}
+
+#list01 ul
+{
+	list-style-type: circle;
+}
+
+#list02 ul
+{
+	list-style-type: square;
+}
+
+#list03 ul
+{
+	list-style-type: upper-roman;
+}
+
+#list04 ul
+{
+	list-style-type: lower-alpha;
+}

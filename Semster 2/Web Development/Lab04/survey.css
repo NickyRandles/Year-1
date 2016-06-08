@@ -1,0 +1,68 @@
+form
+{
+	background-color: #FFE4C4;
+	border: 2px solid blue;
+	width: 60%;
+	padding: 10px;
+}
+
+h1
+{
+	text-align: center;
+	color: red;
+}
+
+fieldset
+{
+	border: 3px solid red;
+	background-color: #00FFFF;
+	margin-top: 5px;
+
+}
+
+legend
+{
+	color: red;
+	border: 3px solid blue;
+	background-color: white;
+	width: 25%;
+	margin-left: 30px;
+}
+
+#buttons
+{
+	margin-left: 10%;
+	margin-top: -5px;
+}
+
+#buttons input
+{
+	width: 10%;
+	background-color: brown;
+	color: white;
+	padding: 5px;
+	border: 2px solid black;
+	margin-right: 15px;
+}
+
+label
+{
+	display: block;
+	float: left;
+	width: 15%;
+}
+
+select
+{
+	margin-left: 15%;
+}
+
+input[type="checkbox"]
+{
+	margin-left: 15%;
+}
+
+input:focus
+{
+	background-color: yellow;
+}

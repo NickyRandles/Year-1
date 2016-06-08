@@ -1,0 +1,66 @@
+#heading
+{
+	margin-top: 10px;
+	display: block;
+	border: 1px solid white;
+	padding: 10px;
+	
+	text-decoration: underline;
+	background-color: pink;
+	
+	float: left;
+}
+/*------------------------------*/
+
+h2
+{
+	margin-top: 10px;
+	margin-right: 60%;
+	display: block;
+	border: 1px solid white;
+	padding: 10px;
+	
+	background-color: pink;
+	
+	float: left;
+}
+/*------------------------------*/
+
+.charpic
+{
+	float: right;
+}
+
+.div1
+{
+	display: block;
+	width: 98%;	
+	border: 1px solid black;
+	padding: 10px;
+
+
+	background-color: silver;
+	text-decoration: none;
+	text-align: none;
+
+	float: left;
+}
+/*------------------------------*/
+
+div a
+{
+	text-decoration: none;
+	color: black;
+	 
+}
+div a:link, diva:visited
+{
+	background-color: white;
+	color: black;
+}
+
+div a:hover
+{	
+	text-decoration: underline;
+	color: white;
+}

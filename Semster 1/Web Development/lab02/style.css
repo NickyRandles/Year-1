@@ -1,0 +1,22 @@
+h1
+{
+    color:Red;
+}
+h2
+{
+    color:Blue;
+}
+
+p
+{
+    font-size: medium;
+    font-family: sans-serif;
+}
+    
+aside
+{
+    float: right;
+    margin-left 12px;
+}
+
+

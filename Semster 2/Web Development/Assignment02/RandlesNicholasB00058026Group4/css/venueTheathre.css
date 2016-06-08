@@ -1,0 +1,97 @@
+#details
+{
+	width: 93%;
+	float: left;
+	background-color: #66FFFF;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	text-align: center;
+}
+
+#venueImg01
+{
+	float: left;
+	height: 15%;
+	width: 15%;
+}
+
+#venueImg02
+{
+	float: right;
+	height: 15%;
+	width: 15%;
+}
+
+h2
+{
+	float: left;
+	width: 70%;
+	text-align: center;
+}
+
+#event01
+{
+	width: 20%;
+	float: left;
+	background-color: #0000FF;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+
+#event02
+{
+	width:20%;
+	float: left;
+	background-color:#6699FF;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+
+#event03
+{
+	width:20%;
+	float: left;
+	background-color: #0000FF;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+
+#event04
+{
+	width:20%;
+	float: left;
+	background-color: #6699FF;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+
+#eventImg04
+{
+	width: 200px;
+	height: 300px;
+}
+
+h3
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+div a
+{
+	display: block;
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+div a:hover
+{
+	text-decoration: underline;
+}

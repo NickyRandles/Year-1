@@ -1,0 +1,105 @@
+#div1
+{
+	margin: 0;
+	padding: 0;
+
+	float: right;
+	width: 80%;
+	box-sizing: border-box;
+	
+	padding: 5px;
+	border: 2px dashed white;
+	
+	background-color: silver;
+	color: black;
+	margin-top: 1em;
+}
+/*------------------------------*/
+
+#div1 h1
+{
+	
+	border: 1px solid black;
+	
+	padding: 5px;
+	
+	background-color: pink;
+	
+	text-decoration: underline;
+	text-align: center;
+}
+/*------------------------------*/
+
+#div1 h2
+{
+	text-decoration: underline;
+	text-align: center;
+}
+/*------------------------------*/
+
+#special01
+{
+	margin-left: 5%;
+	width: 25%;	
+	border: 1px solid black;
+	padding: 10px;
+	
+	
+	background-color: aqua;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+	
+	float: left;
+
+}
+/*------------------------------*/
+
+#special02
+{	
+	margin-left: 4.5%;
+	margin-right: 0;
+	width: 25%;	
+	border: 1px solid black;
+	padding: 10px;
+	
+	
+	background-color: aqua;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+	
+	float: left;
+
+}
+/*------------------------------*/
+
+#special03
+{	
+	margin-right: 5%;
+	width: 25%;	
+	border: 1px solid black;
+	padding: 10px;
+	
+	
+	background-color: aqua;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+	
+	float: right;
+}
+/*------------------------------*/
+
+div a:link, div a:visited 
+{
+	color: black;
+}
+
+div a:hover 
+{
+	color: white;
+}
+
+
+

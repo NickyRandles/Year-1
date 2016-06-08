@@ -1,0 +1,31 @@
+body {
+     
+     font-family: san-serif;
+     
+}
+
+ul {
+      
+      list-style-type: none;
+      
+}      
+
+li { 
+
+    margin-top: 10px;
+
+}
+
+aside {
+
+       float: right;
+       margin-left: 12px;
+
+}
+
+dt {
+
+    font-weight: bold;
+    margin-top: 10px;
+
+}

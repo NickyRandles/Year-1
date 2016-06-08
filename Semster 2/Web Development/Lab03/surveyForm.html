@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+	<style>@import url("surveyForm.css");</style>
+</head>
+<body>
+<form action="" method = "post">
+<h1>Survey</h1>
+<p>
+If you have a moment, we'd appreciate if you would fill out this survey.
+</p>
+<fieldset>
+<legend>Your information</legend>
+First Name:
+	<input type="text" name="firstname" id="firstname" placeholder="enter first name" autofocus required>
+<br>
+Last Name:
+	<input type="text" name="lastname" id="lastname" placeholder="enter last name" required>
+<br>
+Email Address:
+	<input type="text" name="email" id="email" required>
+<br>
+Phone number:
+	  <input type"tel" name="usrtel" id="number" title="Enter 7 digits" pattern="[0-9 {7}]" required>
+<br>
+</fieldset>
+
+<fieldset>
+<legend>How did you hear about us?</legend>
+	<input type="radio" name="find" value="Search engine">Search engine
+	<input type="radio" name="find" value="Search engine">Word of mouth
+	<input type="radio" name="find" value="Search engine">Other
+</fieldset>
+
+<fieldset>
+<legend>Special Offers</legend>
+	<input type="checkbox" name="announcements" id="announcements" value="announcements" checked>
+	Yes Would you like to recieve announcements about new DVDs and special offers?
+<br>
+Please contact me by
+	<select name="contact[]" id="listbox">
+		<option value="email">email</option>
+		<option value="post">post</option>
+		<option value="text">text</option>
+	</select>
+</fieldset>
+
+<div id="buttons">
+<input type="submit" id="submit" value="Send">
+<input type="Reset">
+</div>
+
+</form>
+
+</body>
+</html>

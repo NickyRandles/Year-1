@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Venue Theathre</title>
+	<style>
+		@import url("css/basics.css");
+		@import url("css/nav_bar.css");
+		@import url("css/venueTheathre.css");
+	</style>
+	<script type = "text/javascript">
+	//Start of image 1
+	var Img01rollimage1= new Image; // declaring image 1
+
+	Img01rollimage1.src = "images/rollover01.jpg"; //inputting image
+
+	var Img01rollimage2 = new Image; // declaring image 2
+
+	Img01rollimage2.src = "images/venue01.jpg"; //inputting image
+
+	// rollover functions
+	function swapOutImg01()
+	{
+		document.getElementById("venueImg01").src = Img01rollimage1.src;
+	}
+
+	function swapBackImg01()
+	{
+		document.getElementById("venueImg01").src = Img01rollimage2.src;
+	}
+	//End of image 1
+	//---------------------------------------------------------
+	//Start of image 2
+	var Img02rollimage1= new Image; // declaring image 1
+
+	Img02rollimage1.src = "images/rollover02.jpg"; //inputting image
+
+	var Img02rollimage2 = new Image; // declaring image 2
+
+	Img02rollimage2.src = "images/venue02.jpg"; //inputting image
+
+	// rollover functions
+	function swapOutImg02()
+	{
+		document.getElementById("venueImg02").src = Img02rollimage1.src;
+	}
+
+	function swapBackImg02()
+	{
+		document.getElementById("venueImg02").src = Img02rollimage2.src;
+	}
+	//End of image 2
+	</script>
+</head>
+<body>
+<!-- ***************** Header *****************-->
+<img src="images/image01.jpg" alt="Centre at night" id="image01">
+<img src="images/image02.jpg" alt="Centre at day" id="image02">
+<h1>
+Ratoath Community Centre
+</h1>
+<ul id="nav_bar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="activities.html">Activities</a></li>
+	<li id="currentPage"><a href="venueTheathre.html">Venue Theathre</a></li>
+	<li><a href="location.html">Centre location</a></li>
+	<li><a href="contactUS.html">Contact us</a></li>
+	<li><a href="photoGallery.html">Photo Gallery</a></li>
+</ul>
+<!-- ***************** Venue details *****************-->
+<div id="details">
+<img src="images/venue01.jpg" alt="first venue photo" id="venueImg01" onmouseover="swapOutImg01();" onmouseout="swapBackImg01();">
+<img src="images/venue02.jpg" alt="second venue photo" id="venueImg02"  onmouseover="swapOutImg02();" onmouseout="swapBackImg02();">
+<h2>
+Welcome to the Venue Theathre!
+</h2>
+<p>
+We are delighted to extend to you an invitation to view the Venue Theatre.
+</p>
+<p>
+The Venue Theatre opened its doors to the public in
+2006, and each year successfully entertains thousands of people from County Meath, County Dublin and from all over Ireland and the World.
+</p>
+<p>
+The theatre presents dance and music, as well as the best of local and national professional and amateur companies. Our vibrant programme also includes puppetry, multimedia, clowning and comedy. Get onto our mailing list and feast your senses on the great choice of affordable entertainment at The Venue Theatre!
+</p>
+</div>
+<!-- ***************** 4 Column liquid layout *****************-->
+<div id="event01">
+<h3>Mary Gauthier</h3>
+<img src="images/event01.jpg" alt="">
+<p>
+In conversation and in public, Mary Gauthier comes off as a practical, no-nonsense woman. Stoic, even. Which wouldn't seem unusual, except for the fact that her songs carry so much emotional punch, they can leave you staggering. She has a way of burrowing into that hole so many of us carry inside our souls, and emerging with universal truths that show we aren't so alone after all.
+</p>
+<p>
+<a href="bookingEvent.html">Buy tickets!</a>
+</p>
+</div>
+
+<div id="event02">
+<h3>The Ultimate Michael Buble Tribute Show</h3>
+<img src="images/event02.jpg" alt="">
+<p>
+Frankly Buble & The Fever Big Band take you through a fantastic
+nostalgic musical journey over the last decade charting Michael Buble's
+meteoric rise to fame.
+</p>
+<p>
+The show features hits from Michael Buble and all the musical legends, Frank Sinatra,
+Dean Martin , Bobby Darin, Stevie Wonder, The Beatles and many, many more that helped
+shape his global career.
+</p>
+<p>
+<a href="bookingEvent.html">Buy tickets!</a>
+</p>
+</div>
+
+<div id="event03">
+<h3>David Kitt</h3>
+<img src="images/event03.jpg" alt="">
+<p>
+David Kitt will perform solo in The Venue Theatre, Rataoth this coming May 31st previewing new material along with stripped-down versions of songs from his extensive back catalogue.
+</p>
+<p>
+David Kitt is an Irish musician/producer that crosses multiple genres.
+</p>
+<p>
+<a href="bookingEvent.html">Buy tickets!</a>
+</p>
+</div>
+
+<div id="event04">
+<h3>Stage Performers variety show</h3>
+<img src="images/event04.jpg" alt="" id="eventImg04">
+<p>
+Come and join us on the 21st and 22nd June at 7.30pm, when Stage Performers host their End of Year Variety Show 2013. Children from 3years to 15years will sing, dance and perform songs of old and songs from our current charts. They will also do a sketch from the ever popular film "Willy Wonka".
+</p>
+<p>
+<a href="bookingEvent.html">Buy tickets!</a>
+</p>
+</div>
+<!-- ***************** footer *****************-->
+<footer>
+<hr>
+<p>
+Nicky Randles
+<br>
+<a href="mailto:b00058026@student.itb.ie">b00058026@student.itb.ie</a>
+<br>
+<a href="siteMap.html">Site Map</a>
+<br>
+&copy; Ratoath Community Centre
+</p>
+</footer>
+</body>
+</html>

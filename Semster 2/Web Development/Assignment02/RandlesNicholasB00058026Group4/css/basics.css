@@ -1,0 +1,50 @@
+body
+{
+	background-color: #ADD8E6;
+	padding: 0;
+	margin: 0;
+	font-family: verdana, sans-serif;
+}
+
+#image01
+{
+	height: 25%;
+	width: 20%;
+	float: left;
+}
+
+#image02
+{
+	height: 25%;
+	width: 20%;
+	float: right;
+}
+
+h1
+{
+	display: block;
+	float: left;
+	background-color: #0000FF;
+	color: white;
+	width: 60%;
+	margin-top: 0;
+	padding-top: 5%;
+	padding-bottom:5%;
+	text-align: center;
+	
+}
+
+hr
+{
+	clear: both;
+}
+
+hr
+{
+	margin-top: 5%;
+}
+
+footer p 
+{
+	text-align: center;
+}

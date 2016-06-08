@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign-up</title>
+	<style>
+		@import url("css/signUp.css");
+	</style>
+	<script type="text/javascript">
+
+		function calculate()
+		{
+			//declaring variables
+			Qty = 0;
+			Tot = 0;
+
+			Prc = 10; //declaring price
+
+			// check if user has entered a quantity in the input box
+			if (document.getElementById("qty").value > "")
+			{
+				Qty = document.getElementById("qty").value;
+			}
+
+			// calculate the total
+			Tot = eval(Qty) * eval(Prc);
+			Tot = Tot.toFixed(2);
+			document.getElementById("total").value = Tot;
+		}
+
+
+		function ticket()
+		{
+			alert("Thank You for paying for your classes");
+			alert("I hope you have fun!");
+		}
+	</script>
+</head>
+<body>
+<form action="thankYou.html" method = "post">
+<!--************** Header  ***************-->
+<img src="images/activity06.gif" alt="Taekwondo picture" id="headerImg01">
+<img src="images/activity03.jpg" alt="ZUMBA picture" id="headerImg02">
+<h1>Activity Payment</h1>
+<hr>
+<!--************** Personal details  ***************-->
+<fieldset>
+<legend>Personal details</legend>
+	<label for="name">Name:</label>
+	<input type="text" name="name" id="name" required autofocus placeholder="Enter first name">
+<br>
+	<label for="age">Age:</label>
+	<input  type="number" name="age" id="age"  step="1" min="1" max="100" required>
+<br>
+	<label for="phone">Phone number:</label>
+	<input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="Enter phone number">
+<br>
+	<label for="address">Address:</label>
+	<input type="text" name="address" id="address" maxlength="20" required placeholder="Enter address">
+</fieldset>
+<!--************** Payment method  ***************-->
+<fieldset>
+<legend>Payment Method</legend>
+	<input type="radio" name="option" class="option" value="visa">
+		<img src="images/visa.jpg" alt="Visa logo picture" class="logo">
+		<span class="radio">Visa</span>
+	<input type="radio" name="option" class="option" value="mastercard">
+		<img src="images/mastercard.jpg" alt="Mastercard logo picture" class="logo">
+		<span class="radio">Mastercard</span>
+	<input type="radio" name="option" class="option" value="paypal">
+		<img src="images/paypal.gif" alt="Paypal logo picture" class="logo">
+		<span class="radio">PayPal</span>
+</fieldset>
+<!--************** Activities  ***************-->
+<fieldset>
+<legend>Choose an activity</legend>
+<label for="activities">Choose:</label>
+	<select name="activity[]" id="activities">
+		<option value="select">-Select--</option>
+		<option value="boxing">Boxing</option>
+		<option value="taekwondo">Taekwondo</option>
+		<option value="zumba">ZUMBA fitness</option>
+		<option value=" russianBallet">Russian Ballet</option>
+		<option value="gleeClub">Glee Club</option>
+		<option value="musicalDrama">Musical & Drama</option>
+	</select>
+<br><br>
+<label for="qty">How many classes:</label>
+	<input  type="number" name="amount" id="qty" step="1" min="1" max="100"  onchange="calculate()" required>
+<br><br>
+<label for="total">Total cost:</label>
+	<input type="text" id="total" size="6" onchange="calculate()">
+</fieldset>
+<div id="buttons">
+<input type="Submit" onclick="ticket()">
+<input type="Reset">
+</div>
+</form>
+
+</body>
+</html>

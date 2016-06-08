@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ratoath Community Centre</title>
+	<style>
+		@import url("css/basics.css");
+		@import url("css/nav_bar.css");
+		@import url("css/index.css");
+	</style>
+	<script type="text/javascript">
+		function show(whichdiv)
+		{
+			document.getElementById(whichdiv).style.
+			display='block';
+		}
+
+		function hide(whichdiv)
+		{
+			document.getElementById(whichdiv).style.
+			display='none';
+		}
+	</script>
+</head>
+<body onLoad="hide('answer1');hide('answer2');">
+<!-- ***************** Header *****************-->
+<img src="images/image01.jpg" alt="Centre at night" id="image01">
+<img src="images/image02.jpg" alt="Centre at day" id="image02">
+<h1>
+Ratoath Community Centre
+</h1>
+<ul id="nav_bar">
+	<li id="currentPage"><a href="index.html">Home</a></li>
+	<li><a href="activities.html">Activities</a></li>
+	<li><a href="venueTheathre.html">Venue Theathre</a></li>
+	<li><a href="location.html">Centre location</a></li>
+	<li><a href="contactUS.html">Contact us</a></li>
+	<li><a href="photoGallery.html">Photo Gallery</a></li>
+</ul>
+<!-- ***************** 2 Column liquid layout *****************-->
+<aside>
+	<h3>About Ratoath</h3>
+	<p>
+		Ratoath is currently the third largest village in County Meath.  It is also a thriving village, which has seen a 683% growth between the census of 1996 and 2006 (recording a population of 3,064 and 7,249 respectively).  This growth has continued and it is currently estimated that the population stands at 8,800 inhabitants living in 2,600 dwellings within a 3-mile radius of the centre and this makes Ratoath one of the largest growing villages in Ireland.
+	</p>
+	<p>
+		You may be astonished to hear that there are also approximately 250 businesses operating from or registered to addresses within Ratoath offering virtually every service any individual or business might require. However Ratoath's prominence is not new.  It is actually a village steeped in history and according to various sources it was around 1196 that the first ever Barony in Ireland was created and so the Barony of Ratoath was formed.  This was given to Hugh De Lacy and was essentially a division of County Meath incorporating Rathbeggan, Dunshaughlin, Kilbrew, Crickstown, Killegland, Cookstown, Donaghmore, Ratoath, and portions of Ballymaglasson and Trevit.
+	</p>
+	<div id="know01">
+	<h2 onClick="show('answer1');">
+		Did you know!
+	</h2>
+		<div id="answer1">'Ratoath'is 'Rath To' in Irish </div>
+	</div>
+</aside>
+
+<section>
+	<h3>About Ratoath Community Centre</h3>
+	<p>
+		Ratoath Community Centre celebrates its 7th year this September. Over the past four years thousands of local residents, of all ages, have passed through our doors for all sorts of activities as well as visiting our Venue Theatre.
+	</p>
+	<p>
+		This community facility is your facility and we want you to use it to your advantage.
+	</p>
+	<p>
+		This year we have a fantastic range of activities in our Autumn Programme. You can keep fit, watch your weight, your children can avail of dance classes (Irish, hip-hop, ballet, jazz), learn acting skills, art for young and old, senior citizens, plus many more exciting and exhilarating activities for you and your family to choose from.
+	</p>
+	<p>
+		I hope you will keep this guide as a reference for our activities and that you will visit RCC over the coming months.
+	</p>
+<!-- ***************** Table for opening hours *****************-->
+<div id="timeDate">
+<p id="time">Current time:</p>
+<script type="text/javascript">
+document.getElementById("time").innerHTML +=Date();
+</script>
+</div>
+		<table border = "1">
+			<caption>Opening hours</caption>
+
+			<tr>
+				<th>Day</th> <th>Opening time </th><th>Closing time</th>
+			</tr>
+			<tr class ="odd">
+				<td>Monday</td> <td>9 a.m</td> <td>8 p.m</td>
+			</tr>
+			<tr class="even">
+				<td>Tuesday</td> <td>9 a.m</td> <td>8 p.m</td>
+			</tr>
+			<tr  class="odd">
+				<td>Wednesday</td> <td>9 a.m</td> <td>8 p.m</td>
+			</tr>
+			<tr class="even">
+				<td>Thusday</td> <td>9 a.m</td> <td>8 p.m</td>
+			</tr>
+			<tr  class="odd">
+				<td>Friday</td> <td>9 a.m</td> <td>10 p.m</td>
+			</tr>
+			<tr class="even">
+				<td>Saturday</td> <td>10 a.m</td> <td>12 p.m</td>
+			</tr>
+			<tr  class="odd">
+				<td>Sunday</td> <td>10 a.m</td> <td>12 p.m</td>
+			</tr>
+	</table>
+	<div id="know02">
+	<h2 onClick="show('answer2');">
+		Did you know!
+	</h2>
+		<div id="answer2">Leo Cummins is the Chairperson of Ratoath Community Centre</div>
+	</div>
+</section>
+<!-- ***************** footer *****************-->
+<footer>
+<hr>
+<p>
+Nicky Randles
+<br>
+<a href="mailto:b00058026@student.itb.ie">b00058026@student.itb.ie</a>
+<br>
+<a href="siteMap.html">Site Map</a>
+<br>
+&copy; Ratoath Community Centre
+</p>
+</footer>
+</body>
+</html>

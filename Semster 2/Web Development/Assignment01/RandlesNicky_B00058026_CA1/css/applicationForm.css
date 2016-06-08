@@ -1,0 +1,130 @@
+form
+{
+	background-color: #ADD8E6;
+	width: 55%;
+	border: 1px solid blue;
+}
+
+fieldset
+{
+	border: 1px solid black;
+	margin-left: 5px;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+legend
+{
+	color: white;
+	border: 1px solid black;
+	background-color: brown;
+	width: 25%;
+	margin-left: 5px;
+	padding-left: 5px;
+	padding-left: 15px;
+	
+}
+
+label
+{
+	color: blue;
+	margin-left: 10%;
+}
+
+#membership
+{
+	padding-left: 10%;
+}
+
+#membership input
+{
+	margin-left: 10px;
+}
+
+#payment input
+{
+	margin-left: 20%;
+}
+
+#leftSide
+{
+	float: left;
+	width: 45%;
+}
+
+#rightSide
+{
+	float: left;
+	width: 45%
+}
+
+img
+{
+	width: 60px;
+	height: 60px;
+}
+
+#image01
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+#image02
+{
+	float: right;	
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+h1
+{
+	text-align: center;
+	float: left;
+	margin-left: 20%;
+}
+
+#instructions
+{
+	margin-top: 4%;
+	margin-left: 5%;
+	float: left;
+}
+
+#required
+{
+	color: red;
+	margin-left: 5%;
+	clear: both;
+}
+
+.asterisk
+{
+	color: red;
+}
+
+input[type="checkbox"], input[type="file"], #otherDetails, #condition
+{
+	margin-left: 20%;
+}
+
+#upload input
+{
+	width: 10%;
+}
+
+#buttons
+{
+	margin-left: 32%;
+}
+
+#buttons input
+{
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	border: 2px solid black;	
+	padding-left: 10px;
+	padding-right: 10px;
+}

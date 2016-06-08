@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Application form</title>
+	<style>@import url("css/applicationForm.css");</style>
+</head>
+<body>
+<form action="confirmationPage.html" method="post">
+<!--************** Header ***************-->
+<img src="images/exercise01.jpg" alt="First exercise image" id="image01">
+<h1>
+TOTAL FITNESS
+</h1>
+<img src="images/exercise02.jpg" alt="Second exercise image" id="image02">
+<br>
+<div id="instructions">
+<strong>Complete this form and press the Send button</strong>
+<strong id="required">* indicates a required field</strong>
+</div>
+<!--************** Personal Details  ***************-->
+<fieldset>
+<legend>Personal Details</legend>
+<label for="name">Name:</label>
+	<input type="text" name="name" text="name" required><span class="asterisk">*</span>
+<label for="address">Address:</label>
+	<input type="text" name="address" text="address" required><span class="asterisk">*</span>
+<br>
+<label for="phoneNumber">Phone number:</label>
+	<input type="text" name="phoneNumber" text="phoneNumber" required><span class="asterisk">*</span>
+<label for="email">Email:</label>
+	<input type="text" name="email" text="email" required><span class="asterisk">*</span>
+<br>
+<label for="dob">Date of Birth:</label>
+	<input type="date" name="dob" text="dob" required><span class="asterisk">*</span>
+<label for="gender">Gender:</label>
+	<input type="radio" name="gender" id="gender" value="male" required>Male
+	<input type="radio" name="gender" id="gender" value="female" required>Female <span class="asterisk">*</span>
+<br>
+<label for="password">Password:</label>
+	<input type="password"name="password" text="password" required><span class="asterisk">*</span>
+
+<label for="password02">Reenter Password:</label>
+	<input type="password" name="password02" text="password02" required><span class="asterisk">*</span>
+</fieldset>
+<!--************** Health/Physical condition  ***************-->
+<fieldset>
+<legend>Health/Physical condition</legend>
+	<select name="condition[]" id="condition">
+		<option value="select">-Select--</option>
+		<option value="Unfit">Unfit</option>
+		<option value="Fit">Fit</option>
+		<option value="Healthy">Healthy</option>
+		<option value="Unwell">Unwell</option>
+		<option value="Overweight">Overweight</option>
+	</select>
+</fieldset>
+<!--************** Membership ***************-->
+<fieldset>
+<legend>Membership</legend>
+<div id="membership">
+<label for="category" id="categoryLabel">Category</label>
+	<input type="radio" name="category" id="category" value="student">
+		<span class="radio">Student</span>
+	<input type="radio" name="category" id="category" value="adult">
+		<span class="radio">Adult</span>
+	<input type="radio" name="category" id="category" value="senior">
+		<span class="radio">Senior</span>
+	<input type="radio" name="category" id="category" value="off-peak">
+		<span class="radio">Off-peak</span>
+<br>
+<label for="term" id="termLabel">Term</label>
+	<input type="radio" name="term" id="term" value="3months">
+		<span class="radio">3 months</span>
+	<input type="radio" name="term" id="term" value="6months">
+		<span class="radio">6 months</span>
+	<input type="radio" name="term" id="term" value="9months">
+		<span class="radio">9 months</span>
+	<input type="radio" name="term" id="term" value="12months">
+		<span class="radio">12 months</span>
+</fieldset>
+</div>
+<!--************** Exercise aims ***************-->
+<fieldset>
+<legend>Exercise Aims</legend>
+	<input type="checkbox" name="health" id="health" value="health">
+		<span class="box">Health</span>
+	<input type="checkbox" name="energy" id="energy" value="energy">
+		<span class="box">Energy</span>
+	<input type="checkbox" name="fitness" id="fitness" value="fitness">
+		<span class="box">Fitness</span>
+<br>
+	<input type="checkbox" name="toning" id="toning" value="toning">
+		<span class="box">Toning</span>
+	<input type="checkbox" name="weightloss" id="weightloss" value="weightloss">
+		<span class="box">Weight loss</span>
+	<input type="checkbox" name="rehab" id="rehab" value="rehab">
+		<span class="box">Rehab</span>
+</fieldset>
+<!--************** Payment method  ***************-->
+<fieldset>
+<legend>Payment Method</legend>
+<div id="payment">
+	<input type="radio" name="option" id="option" value="visa">
+		<span class="radio">Visa</span>
+	<input type="radio" name="option" id="option" value="mastercard">
+		<span class="radio">Mastercard</span>
+	<input type="radio" name="option" id="option" value="paypal">
+		<span class="radio">PayPal</span>
+</div>
+</fieldset>
+<!--************** Are you interested in other services  ***************-->
+<fieldset>
+<legend>Are you interested in other services?</legend>
+	<input type="checkbox" name="none" id="none" value="none">
+		<span class="box">None</span>
+	<input type="checkbox" name="massage" id="massage" value="massage">
+		<span class="box">Massage</span>
+	<input type="checkbox" name="personalTraining" id="personalTraining" value="personalTraining">
+		<span class="box">Personal Training</span>
+<br>
+	<input type="checkbox" name="nutrition" id="nutrition" value="nutrition">
+		<span class="box">Nutrition</span>
+	<input type="checkbox" name="steamRoom" id="steamRoom" value="steamRoom">
+		<span class="box">Steam Room</span>
+	<input type="checkbox" name="fitnessClasses" id="fitnessClasses" value="fitnessClasses">
+		<span class="box">Fitness Classes</span>
+</fieldset>
+<!--************** Other details ***************-->
+<fieldset>
+<legend>Other details</legend>
+	<textarea rows="3" cols="50" name="otherDetails" id="otherDetails"></textarea>
+</fieldset>
+<!--************** Upload a photo of yourself ***************-->
+<fieldset>
+<legend>Upload a photo of yourself</legend>
+	<input type="file" name="uploadfile" size="30" id="upload" >
+</fieldset>
+
+<!--************** Buttons ***************-->
+<div id="buttons">
+	<input type="submit" value="Send">
+	<input type="reset" value="Clear">
+</div>
+
+
+</form>
+
+</body>
+</html>

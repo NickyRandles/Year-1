@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ratoath Community Centre</title>
+	<style>
+		@import url("css/basics.css");
+		@import url("css/nav_bar.css");
+		@import url("css/photoGallery.css");
+	</style>
+		<script type="text/javascript" >
+		thisImg = 1; //declaring min
+		imgCt = 15; //declaring max
+
+		function newSlide(direction)
+		{
+				thisImg = thisImg + direction; //incrementing and decrementing of photos
+
+				//when the image gets to less than one, show the last photo(15)
+				if (thisImg < 1)
+				{
+					thisImg = imgCt;
+				}
+
+               //when the image gets greater than 15, go back to the first photo(1).
+
+				if (thisImg == imgCt+1) {
+					thisImg = 1;
+
+				}
+
+				//outputting images
+
+				document.getElementById('slideshow').src = "images/" + thisImg + ".jpg";
+		}
+		</script>
+</head>
+<body>
+<!-- ***************** Header *****************-->
+<img src="images/image01.jpg" alt="Centre at night" id="image01">
+<img src="images/image02.jpg" alt="Centre at day" id="image02">
+<h1>
+Ratoath Community Centre
+</h1>
+<ul id="nav_bar">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="activities.html">Activities</a></li>
+	<li><a href="venueTheathre.html">Venue Theathre</a></li>
+	<li><a href="location.html">Centre location</a></li>
+	<li><a href="contactUS.html">Contact us</a></li>
+	<li id="currentPage"><a href="photoGallery.html">Photo Gallery</a></li>
+</ul>
+<!-- ***************** photo gallery *****************-->
+<div id="photoGallery">
+<form>
+<img src="images/1.jpg"  id="slideshow" alt="Community Centre Photos">
+<p>
+<input type="button" value="<---- " onClick="newSlide(-1)" id="leftArrow">
+<input type="button" value=" ---->" onClick="newSlide(1)" id="rightArrow">
+</p>
+</form>
+</div>
+<!-- ***************** footer *****************-->
+<footer>
+<hr>
+<p>
+Nicky Randles
+<br>
+<a href="mailto:b00058026@student.itb.ie">b00058026@student.itb.ie</a>
+<br>
+<a href="siteMap.html">Site Map</a>
+<br>
+&copy; Ratoath Community Centre
+</p>
+</footer>
+</body>
+</html>

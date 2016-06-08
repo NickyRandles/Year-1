@@ -1,0 +1,32 @@
+form
+{
+	background-color: gray;
+	width: 60%;
+	margin: 170px;
+	padding: 4px;
+	border: 1px solid red;
+}
+
+#field_set
+{
+	border: 1px solid blue;
+}
+
+legend
+{
+	color: blue;
+}
+
+
+#check
+{
+	color: red;
+	font-size: small;
+}
+
+#buttons
+{
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}

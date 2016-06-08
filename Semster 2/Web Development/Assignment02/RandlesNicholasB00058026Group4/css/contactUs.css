@@ -1,0 +1,67 @@
+#wrapper 
+{
+	width: 1025px;
+	margin: 0 auto;
+}
+
+#contacts 
+{
+	float: left;
+	width: 650px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	outline: 2px solid green;
+	background-color: #CCCC00;
+}
+
+#details 
+{
+	float: left;
+	width: 250px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	outline: 2px solid green;
+	background-color: #CCCC00;
+}
+
+/*------------------------------------*/
+
+caption
+{
+	color: green;
+	font-size: 2em;
+}
+
+table, td, th
+{
+	border-collapse: collapse;
+	border: 1px solid green;
+}
+
+
+table
+{
+	width: 100%;
+} 
+
+td
+{
+	vertical-align: top;
+	padding: 6px 12px 6px 3px;
+	text-align: center;
+	background-color: #3399FF;
+}
+
+th
+{
+	color: white;
+	text-align: center;
+	padding: 3px 12px 3px 3px;
+	vertical-align: bottom;
+	background-color: #0033CC;
+
+}
+
+
+
+

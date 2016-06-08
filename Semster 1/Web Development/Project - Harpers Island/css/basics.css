@@ -1,0 +1,45 @@
+body
+{
+	background-color: gray;
+	padding: 0;
+	margin: 0;	
+}
+/*------------------------------*/
+
+header img
+{
+	width: 100%;
+	height: 275px;
+}
+/*------------------------------*/
+
+p
+{
+	font-size: large;
+}
+/*------------------------------*/
+
+footer
+{
+	width: 100%;	
+	padding-top: 10px;
+	text-align: center;
+	float: left;
+}
+
+footer p 
+{
+	font-size: medium;
+}
+
+footer a
+{
+	color: black;
+}
+
+
+footer a:hover
+{
+	background-color: white;
+}
+/*------------------------------*/

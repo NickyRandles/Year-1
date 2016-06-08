@@ -1,0 +1,44 @@
+#heading1
+{
+	margin-top: 5px;
+	display: block;
+	border: 1px solid white;
+	padding: 10px;
+	
+	background-color: pink;
+	float: left;
+}
+/*------------------------------*/
+
+#heading2
+{
+	margin-top: 5px;
+	display: block;
+	border: 1px solid white;
+	padding: 10px;
+	
+	background-color: pink;
+	float: left;
+}
+/*------------------------------*/
+
+.div1
+{
+	width: 100;	
+	border: 1px solid black;
+	padding: 10px;
+	
+	
+	background-color: silver;
+	text-decoration: none;
+	text-align: none;
+	
+	float: left;
+
+}
+/*------------------------------*/
+
+
+
+
+

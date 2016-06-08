@@ -1,0 +1,86 @@
+form
+{
+	background-color: orange;
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-left: 20%;
+}
+
+fieldset
+{
+	border: 1px solid black;
+	margin-top: 5px;
+}
+
+legend
+{
+	border: 1px solid black;
+	background-color: white;
+}
+
+
+label
+{
+	display: block;
+	width: 20%;
+	border: 2px solid black;
+	float: left;
+	background-color: white;
+	margin-right: 2.5%;
+
+}
+
+label, input
+{
+	margin-top: 5px;
+}
+
+input[type="radio"]
+{
+	margin-left: 10%;
+}
+
+#buttons
+{
+	margin-left: 22%;
+}
+
+#buttons input
+{
+	background-color: red;
+	border: 1px solid white;
+	padding: 2px;
+}
+
+.logo
+{
+	height: 40px;
+	width: 50px;
+}
+
+#headerImg01
+{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+#headerImg02
+{
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+h1
+{
+	float: left;
+	width: 65%;
+	text-align: center;
+}
+
+hr
+{
+	clear: both;
+}

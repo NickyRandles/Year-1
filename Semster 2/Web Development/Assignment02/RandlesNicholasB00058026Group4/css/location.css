@@ -1,0 +1,20 @@
+#details
+{
+	width: 93%;
+	float: left;
+	background-color: yellow;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+	text-align: center;
+}
+
+#north, #dublin, #west, #south
+{
+	width: 20%;
+	float: left;
+	background-color: orange;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}

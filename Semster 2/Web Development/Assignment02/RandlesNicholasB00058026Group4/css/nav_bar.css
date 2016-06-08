@@ -1,0 +1,47 @@
+ul
+{
+	clear: both;
+	
+}
+
+#nav_bar a
+{
+ 	margin-top: -2.4%;
+	display: block;
+	width: 14%;	
+	border: 1px solid black;
+	padding: 10px;
+
+
+	background-color: red;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+
+	float: left;
+
+}
+
+#nav_bar a:link, #nav_bar a:visited
+{
+	background-color: pink;
+	color: black;
+}
+
+#nav_bar a:hover
+{
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+#nav_bar li  
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#currentPage a
+{
+	background-color: brown;
+	color: white;
+}

@@ -1,0 +1,49 @@
+form
+{
+	background-color: gray;
+	border: 4px solid black;
+	padding: 10px;
+	width: 60%;
+	margin: 170px;
+}
+
+form h1
+{
+	text-align: center;
+}
+
+
+Fieldset
+{
+	border: 2px solid black;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+legend
+{
+	color: blue;
+}
+
+#listbox
+{
+	width: 15%;
+}
+
+#buttons
+{
+	margin-left: 25%;
+
+}
+
+#buttons input
+{
+	background-color: black;
+	color: white;
+	width: 20%;
+}
+
+#submit
+{
+	margin-right:30px;
+}

@@ -1,0 +1,53 @@
+#div1
+{
+	margin-top: 1em;
+	margin-left: 9%;
+
+	border: 1px solid black;
+	padding: 10px;
+	width: 80%;
+
+	background-color: silver;
+	text-decoration: none;
+	text-align: none;
+
+	float: left;
+}
+/*------------------------------*/
+
+#div1 h1
+{
+	border: 1px solid black;
+	padding: 10px;
+
+	background-color: pink;
+	text-decoration: underline;
+	text-align: center;
+
+}
+/*------------------------------*/
+
+#div1 h2
+{
+	border: 1px solid black;
+	padding: 10px;
+
+	background-color: pink;
+	text-decoration: underline;
+	text-align: center;
+
+}
+/*------------------------------*/
+
+#div1 p
+{
+	margin: 0;
+	border: 1px solid black;
+	padding: 5px;
+
+	background-color: aqua;
+	text-decoration: none;
+	text-align: center;
+
+}
+/*------------------------------*/

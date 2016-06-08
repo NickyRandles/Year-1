@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Feedback Form</title>
+	<style>@import url("feedbackForm.css");</style>
+</head>
+<body>
+<form action="" method="post">
+<h1>Feedback Form</h1>
+Name:
+	<input type="text" name="name" id="name" placeholder="Enter your name" autofocus required>
+<br>
+E-mail:
+	<input type="text" name="email" id="email" placeholder="Enter your email address" required>
+<br>
+Phone:
+	<input type="text" name="phone" id="phone" placeholder="Enter your phone number" required>
+<br>
+Callback on:
+	<input  type="date" name="callback" required>
+<br>
+Priority:
+	<input type="range" name="priority" step="1" max="10" min="1" required>
+<br>
+<div id="buttons">
+<input type="submit" value="Request Call">
+</div>
+</form>
+</body>
+</html>

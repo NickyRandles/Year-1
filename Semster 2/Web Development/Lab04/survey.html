@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>@import url("survey.css");</style>
+</head>
+<body>
+<form  action = "" method = "post">
+<h1>Food Survey</h1>
+<strong>Please complete the following form:</strong>
+<br>
+<fieldset>
+<legend>Personal details</legend>
+	<label for="username">Username</label>
+	<input type="text" name="username" id="username">
+<br>
+	<label for="age">Age</label>
+	<input  type="number" name="age" id="age"  step="1" min="1" max="100" required>
+<br>
+	<label for="phone">Phone</label>
+	<input type"tel" name="phone" id="phone" pattern="[0-9 {10}]" required>
+<br>
+	<label for="password">Password</label>
+	<input type="password" name="password" id="password" maxlength="20">
+</fieldset>
+
+<fieldset>
+<legend>Food groups</legend>
+	<input type= "checkbox" name="fats" id = "fats" value="fats">Fats, oils and sugar
+	<br>
+	<input type="checkbox" name="dairy" id="dairy" value="dairy">Dairy
+	<br>
+	<input type="checkbox" name="meat" id="meat" value="meat">Meat, poultry, fish or nuts
+	<br>
+	<input type="checkbox" name="veg" id="veg" value="veg">Veg
+	<br>
+	<input type="checkbox" name="fruit" id="fruit" value="fruit">Fruit
+	<br>
+	<input type="checkbox" name="bread" id="bread" value="bread">Bread, cereal, rice or pasta
+</fieldset>
+
+<fieldset>
+<legend>Water drank each day</legend>
+	<select name="water[]" id="water">
+		<option value="1glass">up to 1 glass</option>
+		<option value="2-4glasses">2 - 4 glasses</option>
+		<option value="5-8glasses">5 - 8 glasses</option>
+		<option value="8glasses">> 8 glasses</option>
+	</select>
+</fieldset>
+</form>
+<div id="buttons">
+<input type="submit" id="submit" value="Send">
+<input type="Reset" value="Clear">
+</div>
+
+</body>
+</html>

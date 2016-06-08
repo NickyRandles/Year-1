@@ -1,0 +1,66 @@
+form
+{
+	background-color: orange;
+	width: 60%;
+	border: 2px solid black;
+	padding-left:5px;
+	padding-right: 5px;
+}
+
+label
+{
+	display: block;
+	width: 20%;
+	border: 2px solid black;
+	float: left;
+	background-color: white;
+	margin-right: 5px;
+}
+
+img
+{
+	width: 12%;
+	height: 15%;
+}
+
+h1
+{
+	float: left;
+	margin-left: 10%;
+}
+
+#icecream01
+{
+	float: left;
+	margin-top: 5px;
+}
+
+#icecream02
+{
+	float: right;
+	margin-top: 5px;
+}
+
+h3
+{
+	clear: both;
+	text-align: center;
+}
+
+p
+{
+	border-bottom: 1px dashed white;
+	padding-bottom: 5px;
+}
+
+#buttons
+{
+	margin-left: 22%;
+}
+
+#buttons input
+{
+	background-color: red;
+	border: 1px solid white;
+	padding 2px;
+}

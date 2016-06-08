@@ -1,0 +1,81 @@
+aside
+{
+	width: 40%;
+	float: left;
+	background: orange;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%
+}
+
+section
+{
+	
+	width:45%;
+	float: left;
+	background: orange;
+	padding:10px;
+	margin-top: 2.5%;
+	margin-left: 2.5%;
+}
+
+#know01, #know02
+{
+	background-color: green;
+	text-align: center;
+	padding: 1em;
+}
+
+#know02
+{
+	margin-top: 10px;								
+}
+
+table
+{
+	font-size: 80%;
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+
+caption
+{
+	font-size: 2em;
+	color: red;
+}
+
+td
+{
+	vertical-align: top;
+	padding: 6px 12px 6px 3px;
+	text-align: center;
+}
+
+th
+{
+	color: white;
+	background-color: olive;
+	text-align: center;
+	padding: 3px 12px 3px 3px;
+	vertical-align: bottom;
+}
+
+tr.odd
+{
+	background-color: #F3F3A6;
+}
+
+tr.even
+{
+	background-color: #D4D4A2;
+}
+
+#timeDate
+{
+	border: 3px solid green;
+	padding: 10px;
+	font-weight: bold;
+}
+
+

@@ -1,0 +1,38 @@
+img
+{
+	width: 60px;
+	height: 60px;
+}
+
+#image01
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+h1
+{
+	float: left;
+	margin-left: 25%;
+}
+
+#image02
+{
+	float: right;	
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+hr
+{
+	clear: both;
+}
+
+#confirm
+{
+	width: 75%;
+	margin-left: 10%;
+	margin-top: 10%;
+	
+}
